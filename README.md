@@ -30,7 +30,7 @@ Quickstart interactivo que demuestra deteccion de fraude en tiempo real usando S
 
 ## Prerequisitos
 
-- Cuenta Snowflake con rol ACCOUNTADMIN (o permisos equivalentes)
+- **Solicita tu cuenta de Snowflake aqui**: [https://go.dataops.live/rappy-day/instructions](https://go.dataops.live/rappy-day/instructions)
 - Cortex Code CLI o Desktop instalado
 - Node.js 18+ (para la app React)
 - Python 3.9+ (para el notebook)
