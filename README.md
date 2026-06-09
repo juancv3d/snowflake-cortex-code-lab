@@ -9,47 +9,59 @@
 #################################################################
 #                                                               #
 #   Fecha: 2026-06-09                                           #
-#   Version: v1                                                 #
+#   Version: v2                                                 #
 #   Autor: Juan Camilo Villarreal                                #
 #   LinkedIn: https://www.linkedin.com/in/juancvillarreal/        #
-#                                                               #
-# ------------------------------------------------------------- #
-#             _ __  __ ____  _  _______ _   _ _____             #
-#            | |  \/  |  _ \| |/ / ____| \ | |_   _|            #
-#         _  | | |\/| | | | | ' /|  _| |  \| | | |              #
-#        | |_| | |  | | |_| | . \| |___| |\  | | |              #
-#         \___/|_|  |_|____/|_|\_\_____|_| \_| |_|              #
 #                                                               #
 #################################################################
 ============================================================================*/
 -->
 
-# RappiPay — Fraud Detection Quickstart con Cortex Code
+# RappiPay Fraud Detection Lab — Cortex Agent + Cortex Code
 
-Quickstart interactivo que demuestra deteccion de fraude en tiempo real usando Snowflake Dynamic Tables, Cortex AI y una app React generada con Cortex Code.
+Lab interactivo de 45 minutos donde construyes un agente AI conversacional que responde preguntas sobre fraude de RappiPay en lenguaje natural.
+
+## Que vas a construir
+
+| Componente | Producto Snowflake | Para que sirve |
+|-----------|-------------------|----------------|
+| Datos sinteticos | Tables + Dynamic Tables | Pipeline de fraude (12K transacciones) |
+| Semantic View | Cortex Analyst | Ensena a la AI tu modelo de datos |
+| Cortex Agent | Snowflake Intelligence | Chat en lenguaje natural sobre fraude |
+| Exploracion | Cortex Code | Generacion de SQL y analisis asistido |
 
 ## Prerequisitos
 
 - **Solicita tu cuenta de Snowflake aqui**: [https://go.dataops.live/rappy-day/instructions](https://go.dataops.live/rappy-day/instructions)
-- Cortex Code CLI o Desktop instalado
-- Node.js 18+ (para la app React)
-- Python 3.9+ (para el notebook)
+- Cortex Code CLI instalado (`npm install -g @snowflake-labs/cortex-code`)
 
-## Como ejecutar
+## Como ejecutar (45 min)
 
-1. Ejecuta `scripts/one_click_run.sql` en Snowflake (crea DB, schemas, tablas, dynamic tables y semantic view)
-2. Abre el notebook en Snowflake Notebooks y sigue las secciones guiadas
-3. Usa Cortex Code con el prompt de `react_app_prompt.md` para generar el dashboard
+1. Ejecuta `scripts/one_click_run.sql` en Snowflake para crear el ambiente
+2. Abre el notebook `quickstart_rappipay_cortex_code.ipynb` en Snowflake Notebooks
+3. Sigue las 5 Tasks guiadas paso a paso
+
+## Estructura del Lab
+
+| Task | Tiempo | Que haces |
+|------|--------|-----------|
+| 1. Setup | 10 min | Crear DB + cargar datos sinteticos |
+| 2. Explorar con Cortex Code | 10 min | Descubrir patrones de fraude con AI |
+| 3. Semantic View | 10 min | Definir el modelo para lenguaje natural |
+| 4. Cortex Agent | 10 min | Crear y habilitar el agente en Intelligence |
+| 5. Validacion | 5 min | Probar preguntas y cleanup |
 
 ## Archivos
 
 | Archivo | Descripcion |
 |---------|-------------|
-| `scripts/one_click_run.sql` | Setup completo: DB, datos sinteticos, dynamic tables, Cortex AI, semantic view |
-| `react_app_prompt.md` | Prompt listo para Cortex Code que genera el dashboard React |
-| `requirements.txt` | Dependencias Python para el notebook |
-| `README.md` | Este archivo |
+| `quickstart_rappipay_cortex_code.ipynb` | Notebook principal con las 5 Tasks |
+| `scripts/one_click_run.sql` | Setup completo (DB, datos, dynamic tables, grants) |
+| `requirements.txt` | Dependencias Python |
 
 ## Nota
 
-Todos los datos son ficticios y generados sinteticamente para propositos de demostracion. No representan transacciones reales de RappiPay.
+Todos los datos son ficticios pero inspirados en el mercado fintech colombiano/mexicano. No representan transacciones reales de RappiPay.
+
+---
+*Autor: Juan Camilo Villarreal | Snowflake SE LATAM*
