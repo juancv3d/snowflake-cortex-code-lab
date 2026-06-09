@@ -10,8 +10,8 @@
 #                                                               #
 #   Fecha: 2026-06-09                                           #
 #   Version: v1                                                 #
-#   Autor: Juan Manuel Diaz Iturbide                            #
-#   LinkedIn: https://www.linkedin.com/in/jmdkent/              #
+#   Autor: Juan Camilo Villarreal                                #
+#   LinkedIn: https://www.linkedin.com/in/juancvillarreal/        #
 #                                                               #
 # ------------------------------------------------------------- #
 #             _ __  __ ____  _  _______ _   _ _____             #
