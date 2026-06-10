@@ -16,6 +16,10 @@
 ============================================================================*/
 -->
 
+<p align="center">
+  <img src="assets/rappipay-logo.svg" alt="RappiPay" width="300"/>
+</p>
+
 # RappiPay Fraud Detection Lab
 
 ## Construye un Cortex Agent con Cortex Code en 45 minutos
